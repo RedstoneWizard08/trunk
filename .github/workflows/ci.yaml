@@ -157,7 +157,7 @@ jobs:
         with:
           toolchain: stable
           profile: minimal
-          target: wasm32-unknown-unknown
+          target: wasm32-unknown-emscripten
 
       - name: Build | Test
         run: cargo test
