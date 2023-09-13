@@ -233,7 +233,7 @@ impl RustApp {
         // Spawn the cargo build process.
         let mut args = vec![
             "build",
-            "--target=wasm32-unknown-unknown",
+            "--target=wasm32-unknown-emscripten",
             "--manifest-path",
             &self.manifest.manifest_path,
         ];
